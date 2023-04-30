@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Use Cases by Sustainable Development Goals  | HK-BCOL 2023 Hong Kong Blockchain Olympiad | IBCOL 2023 International Blockchain Olympiad</title>
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <style>
+    button:focus {
+        outline-color: black;
+    }
+
+</style>
+
+
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<link rel="icon" href="./images/logo/IBCOL-HK.png" type="image/gif" sizes="16x16">
+<meta name="description" content="The Hong Kong Blockchain Olympiad (HK-BCOL) is the local blockchain olympiad committee working with some academic and industry professionals in Hong Kong. We sent a delegation of 12 teams to IBCOL 2023. For IBCOL 2023, the HK-BCOL will select up to 15 projects to represent Hong Kong." />
+<meta name="author" content="HKBCOL 2023 Hong Kong Blockchain Olympiad" />
+<meta property="og:image" content="./images/logo/IBCOL-HK.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+
+
+
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script> -->
+
+    <link rel="stylesheet" href="./css/base-2.css" />
+    <link rel="stylesheet" href="./css/vendor-2.css" />
+    <link rel="stylesheet" href="./css/main-2.css" />
+    <link rel="stylesheet" href="./css/gbRemake-2.css" />
+    <link rel="stylesheet" href="./css/dropDown-2.css" />
+    <link rel="stylesheet" href="./css/how-to-join-2.css" />
+    <link rel="stylesheet" href="./css/clickToEnlarge-2.css" />
+    <link rel="stylesheet" href="./css/rowController-2.css" />
+    <link rel="stylesheet" href="./css/chapters.css" />
+    <link rel="stylesheet" href="./css/navtabs">
+    <link rel="stylesheet" href="./css/tabs-new.css">
+
+
+    <script src="./js/modernizr.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/function.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <style>
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+    .while-hover:hover{
+        background-color: yellow;
+    }
+
+</style>
+</head>
+
+<body id="top">
+<div id="preloader"><div id="loader" class="dots-jump"><div></div><div></div><div></div></div></div><header class="s-header"><div class="header-logo"><a class="site-logo" href="index.html"><img src="images/logo/resized/IBCOL HK Horizontal.png" alt="IBCOL: International Blockchain Olympiad"></a></div><div class="desktop-nav" style="padding-top:20px"><ul class="nav_list"><li><a class="NavLinkComponent desktop-nav-link" href="./about.html">About</a></li><li class="NavLinkComponent desktop-nav-link dropdown" style="margin-top:3px"><a class="dropbtn NavLinkComponent desktop-nav-link">Rules ▾</a><div class="dropdown-content NavLinkComponent desktop-nav-link"><a class="NavLinkComponent desktop-nav-link" href="./secondary.html">Secondary</a><a class="NavLinkComponent desktop-nav-link" href="./tertiary.html">Tertiary</a></div></li><li class="NavLinkComponent desktop-nav-link dropdown" style="margin-top:3px"><a class="dropbtn NavLinkComponent desktop-nav-link">Case Studies ▾</a><div class="dropdown-content NavLinkComponent desktop-nav-link"><a class="NavLinkComponent desktop-nav-link" href="./cases-hksar.html">HKSAR Use Cases</a><a class="NavLinkComponent desktop-nav-link" href="./cases-un-sdg.html">SDG Use Cases</a></div></li><li class="NavLinkComponent desktop-nav-link dropdown" style="margin-top:3px"><a class="dropbtn NavLinkComponent desktop-nav-link">Special Events ▾</a><div class="dropdown-content NavLinkComponent desktop-nav-link"><a class="NavLinkComponent desktop-nav-link" href="./block-hacks.html">Hackathon</a><a class="NavLinkComponent desktop-nav-link" href="./block-certs.html">Certification</a><a class="NavLinkComponent desktop-nav-link" href="./gba-2023.html">GBA IBCOL</a><a class="NavLinkComponent desktop-nav-link" href="./ams-2023.html">Amsterdam 2023</a></div></li><li class="NavLinkComponent desktop-nav-link dropdown" style="margin-top:3px"><a class="dropbtn NavLinkComponent desktop-nav-link">Get Started ▾</a><div class="dropdown-content NavLinkComponent desktop-nav-link"><a class="NavLinkComponent desktop-nav-link" href="./faq.html">FAQ</a><a class="NavLinkComponent desktop-nav-link" href="./workshops.html">Workshops</a><a class="NavLinkComponent desktop-nav-link" href="./resources.html">Resources</a></div></li><li><a class="NavLinkComponent desktop-nav-link" href="./registration.html">Register</a></li></ul></div><a class="header-menu-toggle" href="#"><span class="header-menu-icon"></span></a><nav class="header-nav"><a href="#0" class="header-nav__close" title="close"><span>Close</span></a><div class="header-nav__content"><ul class="header-nav__list"><li><h2 class="my-0"><a class="NavLinkComponent" href="./index.html">About</a></h2></li><li class="NavLinkComponent dropdown" style="margin-top:3px"><a style="color:#fff" class="dropbtn NavLinkComponent">Rules ▾</a><div class="dropdown-content NavLinkComponent"><a class="NavLinkComponent" href="./secondary.html">Secondary</a><a class="NavLinkComponent" href="./tertiary.html">Tertiary</a></div></li><li class="NavLinkComponent dropdown" style="margin-top:3px"><a style="color:#fff" class="dropbtn NavLinkComponent">Case Studies ▾</a><div class="dropdown-content NavLinkComponent"><a class="NavLinkComponent" href="./cases-hksar.html">HKSAR Use Cases</a><a class="NavLinkComponent" href="./cases-un-sdg.html">SDG Use Cases</a></div></li><li class="NavLinkComponent dropdown" style="margin-top:3px"><a style="color:#fff" class="dropbtn NavLinkComponent">Special Events ▾</a><div class="dropdown-content NavLinkComponent"><a class="NavLinkComponent" href="./block-hacks.html">Hackathon</a><a class="NavLinkComponent" href="./block-certs.html">Certification</a><a class="NavLinkComponent" href="./gba-2023.html">GBA IBCOL</a><a class="NavLinkComponent" href="./ams-2023.html">Amsterdam 2023</a></div></li><li class="NavLinkComponent dropdown" style="margin-top:3px"><a style="color:#fff" class="dropbtn NavLinkComponent">Get Started ▾</a><div class="dropdown-content NavLinkComponent"><a class="NavLinkComponent" href="./faq.html">FAQ</a><a class="NavLinkComponent" href="./workshops.html">Workshops</a><a class="NavLinkComponent" href="./resources.html">Resources</a></div></li><li><h2 class="my-0"><a class="NavLinkComponent" href="./registration.html">Register</a></h2></li></ul></div></nav></header>
+<!--Beginning of test-->
+
+
+<!-- Demo header-->
+
+<section class="s-section target-section topSection">
+    <div class="container-fluid mh-100v" style="background-color: #f7f7f7;">
+        <div class="row section-header ">
+            <div class="col-12 my-5 py-5rem">
+                <h1 class="mb-0 headerText text-black">Use Cases by Sustainable Development Goals</h1>
+                <p class=" mb-0 text-center text-black text-light-black underHeaderText" style="font-size: 20px !important;">Read me if you are competing in HKBCOL 2023</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid colorBk mt-2" style="padding-top: 0px; padding-bottom: 80px;">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-10 col-sm-12">
+                <img src="/images/sdgs_poster.png">
+                <h3><b>Why Sustainable Development Goals?</b></h3>
+                <p>This year's International Blockchain Olympiad (IBCOL) revolves around building the foundations for the peace and prosperity of our planet and people, as envisioned by the United Nations. As such, IBCOL has aligned with the 17 Sustainable Development Goals (<a href="https://sdgs.un.org/goals">SDG</a>).</p>
+            </div>
+            <div class="col-md-10 col-sm-12">
+                <h3><b>Trust Technologies</b></h3>
+                <p>Trust technologies are technologies that enable the creation of secure, transparent, and decentralized systems that can be trusted by all parties involved. Blockchain and distributed ledger technology are two examples of trust technologies that are currently gaining popularity.
+                    <br>Blockchain technology is a decentralized database that maintains a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. By using this technology, it is possible to create a tamper-proof and transparent record of transactions that is maintained by a network of users rather than a centralized authority.
+                    <br>Distributed ledger technology is a broader term that encompasses various technologies that enable the creation of decentralized and secure ledgers. This can include blockchain technology, but also other technologies such as directed acyclic graphs (DAGs) or hashgraph consensus algorithms. The main idea behind distributed ledger technology is to create a shared ledger that can be accessed and updated by multiple parties while maintaining the integrity and security of the data.
+                    <br>Trust technologies have several benefits, including:
+                    <ol>
+                        <li>Transparency: Trust technologies can create a transparent and auditable record of transactions that can be accessed and verified by all parties involved.</li>
+                        <li>Security: Trust technologies use cryptographic algorithms to ensure the security and integrity of data. This makes it difficult for hackers or malicious actors to tamper with the data.</li>
+                        <li>Decentralization: Trust technologies enable the creation of decentralized systems that are not controlled by a single authority. This can reduce the risk of fraud, corruption, or censorship.</li>
+                        <li>Efficiency: Trust technologies can automate and streamline various processes, reducing the need for intermediaries and increasing efficiency.</li>
+                    </ol>
+                    Overall, trust technologies have the potential to transform various industries by creating more secure, transparent, and efficient systems. However, it is important to note that these technologies are still in their early stages of development, and there are still challenges to be addressed, such as scalability, interoperability, and standardization.
+                </p>
+            </div>
+        </div>
+    </div>
+
+<section >
+    <div class="container-fluid" style="width:90%">
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Tabs nav -->
+                <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link mb-3 p-3 shadow active scrollLink" id="v-pills-sdg1-tab" data-toggle="pill" href="#v-pills-sdg1" role="tab" aria-controls="v-pills-sdg1" aria-selected="true">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 1 (No Poverty)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg2-tab" data-toggle="pill" href="#v-pills-sdg2" role="tab" aria-controls="v-pills-sdg2" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 2 (Zero Hunger)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg3-tab" data-toggle="pill" href="#v-pills-sdg3" role="tab" aria-controls="v-pills-sdg3" aria-selected="false">
+                       
+                        <span class="font-weight-bold small text-uppercase">SDG 3 (Good Health & Well-Being)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg4-tab" data-toggle="pill" href="#v-pills-sdg4" role="tab" aria-controls="v-pills-sdg4" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 4 (Quality Education)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg5-tab" data-toggle="pill" href="#v-pills-sdg5" role="tab" aria-controls="v-pills-sdg5" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 5 (Gender Equality)</span></a>
+                    
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg6-tab" data-toggle="pill" href="#v-pills-sdg6" role="tab" aria-controls="v-pills-sdg6" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 6 (Clean Water & Sanitation)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg7-tab" data-toggle="pill" href="#v-pills-sdg7" role="tab" aria-controls="v-pills-sdg7" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 7 (Affordable & Clean Energy)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg8-tab" data-toggle="pill" href="#v-pills-sdg8" role="tab" aria-controls="v-pills-sdg8" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 8 (Decent Work & Economic Growth)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg9-tab" data-toggle="pill" href="#v-pills-sdg9" role="tab" aria-controls="v-pills-sdg9" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 9 (Industry, Innovation, Infrastructure)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg10-tab" data-toggle="pill" href="#v-pills-sdg10" role="tab" aria-controls="v-pills-sdg10" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 10 (Reduced Inequalities)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg11-tab" data-toggle="pill" href="#v-pills-sdg11" role="tab" aria-controls="v-pills-sdg11" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 11 (Sustainable Cities & Communities)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg12-tab" data-toggle="pill" href="#v-pills-sdg12" role="tab" aria-controls="v-pills-sdg12" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 12 (Responsible Consumption & Production)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg13-tab" data-toggle="pill" href="#v-pills-sdg13" role="tab" aria-controls="v-pills-sdg13" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 13 (Climate Action)</span></a>
+                        
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg14-tab" data-toggle="pill" href="#v-pills-sdg14" role="tab" aria-controls="v-pills-sdg14" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 14 (Life Below Water)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg15-tab" data-toggle="pill" href="#v-pills-sdg15" role="tab" aria-controls="v-pills-sdg15" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 15 (Life on Land)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg16-tab" data-toggle="pill" href="#v-pills-sdg16" role="tab" aria-controls="v-pills-sdg16" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 16 (Peace, Justice, Strong Institutions)</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow scrollLink" id="v-pills-sdg17-tab" data-toggle="pill" href="#v-pills-sdg17" role="tab" aria-controls="v-pills-sdg17" aria-selected="false">
+                        
+                        <span class="font-weight-bold small text-uppercase">SDG 17 (Partnerships for SDG)</span></a>
+                </div>
+                    
+                    
+            </div>
+
+
+            <div class="col-md-9">
+                <!-- Tabs content -->
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-sdg1" role="tabpanel" aria-labelledby="v-pills-sdg1-tab">
+                        <h4 class="font-italic mb-4">SDG 1 (No Poverty)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some problems related to SDG 1 (No Poverty) that could potentially benefit from blockchain technology solutions:
+                            <li>Lack of identification and documentation: Many poor populations do not have proper identification, proof of citizenship or property records. Blockchain could be used to provide verifiable digital IDs and documentation in a transparent and tamper-proof manner.</li>
+                            <li>Limited access to financial services: Poor communities struggle with lack of access to basic financial services like banking, loans, remittances, etc. Blockchain-based fintech solutions could help extend access to finance for the poor.</li>
+                            <li>Corruption and inefficient aid distribution: Sometimes poverty alleviation aid and resources fail to reach the intended beneficiaries due to corruption or mismanagement. Blockchain's transparent and verifiable record of transactions could help ensure efficient and fair distribution of aid and resources.</li>
+                            <li>Lack of property rights: Without legal documentation of land ownership or property rights, the poor have limited collateral and opportunities. Blockchain land titling solutions could help formally record property rights and enable the poor to leverage assets.</li>
+                            <li>Income and employment insecurity: The working poor often struggle with volatile, uncertain and irregular income/employment. Blockchain-based solutions around universal basic income, micro-jobs, and employment verification could provide more stability.</li>
+                            <li>Limited entrepreneurship: Lack of access to capital, resources, and enabling infrastructure restrict entrepreneurship in poor communities. Blockchain-based platforms could help connect entrepreneurs tofunding, mentors, vendors, and marketplaces.</li>
+                            <li>Inefficient remittances: Expensive remittance fees and slow transfer times penalize poor migrant workers and diaspora communities. Low-cost blockchain remittance platforms could help reduce costs and speed up transfers.</li>
+                        </p>
+                    </div>
+                    
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg2" role="tabpanel" aria-labelledby="v-pills-sdg2-tab">
+                        <h4 class="font-italic mb-4">SDG 2 (Zero Hunger)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-2 (Zero Hunger) that could be addressed using blockchain technology:
+                            <li>Food fraud and counterfeiting: Blockchain can be used to ensure transparency and traceability of food supply chains. This makes it easier to identify the origin and verify the authenticity of food products. This helps prevent counterfeit or adulterated food from entering the system.</li>
+                            <li>Inefficient food distribution: Blockchain-based solutions can optimize food distribution by ensuring real-time tracking of food shipments, enabling just-in-time delivery and reducing waste. This can help get surplus food from farms to food banks and those in need.</li>
+                            <li>Lack of trust in the food system: Blockchain has the potential to rebuild trust in the food system by providing an open, transparent and trusted platform for information sharing and exchange between all parties in the supply chain. This can boost consumer confidence in the food system.</li>
+                            <li>Poor farmer livelihoods: Blockchain can be leveraged to provide a transparent platform for fair-trade of agricultural products, fair pricing of goods, and direct-to-consumer sales. This can help farmers earn a fair price for their produce and improve their livelihoods.</li>
+                            <li>Food insecurity monitoring: Blockchain has the potential to be used for real-time monitoring of food availability, prices, supplies and aid distribution in different geographies. This can help identify regions and communities facing food insecurity and enable faster response times.</li>
+                            <li>Donation management: Non-profits and food aid organizations can use blockchain to improve transparency and accountability in managing food donations. This ensures donated food reaches those who need it the most in a timely and equitable manner.</li>
+                        </p>
+                    </div>
+                    
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg3" role="tabpanel" aria-labelledby="v-pills-sdg3-tab">
+                        <h4 class="font-italic mb-4">SDG 3 (Good Health & Well-Being)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-3 (Good Health and Well-Being) that could be addressed using blockchain technology:
+                            <li>Lack of data interoperability: Blockchain can enable interoperability of electronic health records and other medical data across different health systems and jurisdictions. This allows for a more comprehensive view of patients' health history and better coordination of care.</li>
+                            <li>Fraud and abuse: Blockchain solutions can be used to prevent fraud, abuse and ensure integrity of health insurance claims, medical billing processes and reimbursements. This helps reduce wastage and control costs.</li>
+                            <li>Counterfeit medicines: Blockchain can provide an tamper-proof record of medicines and medical products across the supply chain. This makes it easier to track and verify the authenticity of drugs, ensuring unsafe counterfeits do not enter the system.</li>
+                            <li>Limited access to affordable medicines: Blockchain-based platforms can facilitate equitable and affordable access to medicines by enabling direct-to-patient sales, price transparency, quality verification and regulated distribution of medicines.</li>
+                            <li>Poor health data management: Blockchain offers an innovative approach to managing health data in a decentralized yet secure manner. It provides patients with more control over their health records while ensuring privacy and security. This can boost data privacy, usage and interoperability.</li>
+                            <li>Inefficient supply chain management: Like in other sectors, blockchain can streamline supply chain management of medicines, medical equipment, organs, blood etc. This includes real-time tracking of storage conditions, expiration dates, availability and targeted distribution to improve availability, reduce waste and ensure quality.</li>
+                            <li>Limited shared health records: Blockchain-based solutions offer an distributed health record system that gives authorized parties access to relevant parts of shared patient health records. This facilitates coordinated care, treatment across facilities and continuous patient monitoring while preserving privacy.</li>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg4" role="tabpanel" aria-labelledby="v-pills-sdg4-tab">
+                        <h4 class="font-italic mb-4">SDG 4 (Quality Education)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-4 (Quality Education) that could be addressed using blockchain technology:
+                            <li>Lack of transparent student records: Blockchain can be used to create permanent, tamper-proof and transparent student records. This provides a single source of truth for student achievements, credentials, certifications and learning outcomes over time.</li>
+                            <li>Fake degrees and certifications: Blockchain solutions help verify the authenticity of degrees, certifications, transcripts and other educational qualifications in a verifiable and fraud-proof manner. This prevents fake credentials from entering the education system.</li>
+                            <li>Inefficient management of educational resources: Blockchain can streamline processes for managing educational resources including managing course registrations, sharing educational materials, issuing certifications, scholarships, transcripts, etc. This reduces paperwork and ensures equitable access to resources.</li>
+                            <li>Limited incentives for good performance: Blockchain-based learning management systems or learning token solutions can provide tamper-proof proofs of student performance which can then be monetized. This creates new incentives for students to work hard and achieve good learning outcomes.</li>
+                            <li>Limited engagement: Blockchain can facilitate building communities, enable sharing of knowledge, foster collaboration and improve student engagement through functionalities like incentivization, rewards, voting and feedback.</li>
+                            <li>Limited access to education: Blockchain solutions help address barriers to accessing education by enabling scholarship management, payment processing for educational fees, certification of skills, and issuance of verifiable credentials. This improves access to learning opportunities for underprivileged groups.</li>
+                            <li>Lack of IPR protection: A blockchain education system with functionality to issue verifiable credentials and Transcripts can also support mechanisms for intellectual property rights management, citations and plagiarism checking for educators, students and institutions. This promotes academic integrity.</li>
+                        </p>
+                    </div>
+                    
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg5" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 5 (Gender Equality)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-5 (Gender Equality) that could be addressed using blockchain technology:
+                            <li>Limited women's financial inclusion: Blockchain can be leveraged to provide women access to transparent and low-cost financial services including remittances, microfinance, payment processing, etc. This helps address the gender gap in financial inclusion.</li>
+                            <li>Discrimination against women: Blockchain has the potential to provide an anonymous yet accountable platform for reporting and addressing cases of discrimination, harassment and abuse against women in areas like employment, education, healthcare, governance, etc. This can help bring perpetrators to justice while protecting the identity of survivors.</li>
+                            <li>Inequitable property and inheritance rights: Blockchain solutions can be used to establish immutable and transparent records of property ownership and inheritance rights of women. This makes it more difficult to seize or tamper with women's property and inheritance entitlements illegally.</li>
+                            <li>Gender pay gap: By providing a permanent and transparent record of employee/worker information including roles, responsibilities, qualifications, performance and remuneration, blockchain can enable analysis and addressing of unjustified pay disparities based on gender. This promotes pay equity and fairness.</li>
+                            <li>Limited participation of women in blockchain: Blockchain platforms can enable targeted interventions to improve girls' and women's access to learning opportunities in blockchain, emerging technologies and STEM fields in general. This helps address gender imbalance in the technology sector and related industries.</li>
+                            <li>Discrimination in education: Blockchain solutions for managing student records, admissions, certifications, performance assessments, etc can be leveraged to detect and address discrimination against girls and women in the education system based on access, quality or opportunities. This enables an inclusive education for all.</li>
+                            <li>Violence against women: Blockchain has potential applications for improving reporting and response systems for violence against women including domestic violence, sexual assault, early/child marriage, femicide, etc. Anonymized reporting mechanisms and coordinated response plans can help end violence against women.</li>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg6" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 6 (Clean Water & Sanitation)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-6 (Clean Water and Sanitation) that could be addressed using blockchain technology:
+                            <li>Limited access to clean water: Blockchain solutions can be used to facilitate equitable access to clean water by enabling payment processing for water utilities, verifying proof of payment, detection of theft/pilferage and ensuring targeted distribution of resources to underserved communities.</li>
+                            <li>Inefficient management of water resources: Blockchain provides an transparent and tamper-proof record of water availability, distribution and usage at different points in the water supply chain. This helps optimize allocation of scarce water resources and reduce wastage. Real-time monitoring also enables faster response during shortages or disasters.</li>
+                            <li>Lack of funds for infrastructure development: Crowdfunding platforms with blockchain integration can improve access to finance for developing water infrastructure like pumps, pipelines, treatment plants, toilets, etc especially in developing or rural areas. Verifiable proof of fund usage on-chain ensures accountability and impact.</li>
+                            <li>Pollution of water bodies: Blockchain solutions for implementing and enforcing environmental regulations related to use and disposal of chemicals, industrial waste, sewage, plastics, etc can help track pollutants and penalize non-compliant parties. This supports better management and preservation of fresh water resources from contamination and pollution.</li>
+                            <li>High costs of water testing: Blockchain can be used to improve affordability and outreach of water testing solutions. Proof of test results on-chain makes water quality verifiable without a trusted third-party intermediary. Tamper-proof test reports also enable better monitoring of quality standards and detection of unsafe water.</li>
+                            <li>Limited hygiene awareness: Blockchain platforms facilitate knowledge sharing on best hygiene practices, importance of hand washing, sanitation, etc. in a trusted and transparent manner. Incentivization mechanisms like loyalty points, discounts or certifications can motivate adoption of good hygiene behaviors. This supports promotion of health, well-being and development especially in underdeveloped regions with poor sanitation infrastructure.</li>
+                            <li>Inadequate disaster relief: Blockchain solutions aid faster and targeted distribution of emergency resources including water, food, shelters, medicines etc during disasters or crises. Transparent record of aid distribution and verification of recipient eligibility prevents misuse and ensures relief reaches the most affected communities and individuals.</li>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg7" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 7 (Affordable & Clean Energy)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-7 (Affordable and Clean Energy) that could be addressed using blockchain technology:
+                            <li>Limited access to energy: Blockchain can be used to decentralize control and access to energy by enabling peer-to-peer energy trading, microgrids, community energy cooperatives, etc. Verifiable proof of renewable energy generation and trade on-chain allows communities to monetize their energy access.</li>
+                            <li>Inefficient energy management: Blockchain provides a transparent ledger of energy generation, distribution, consumption and usage across different stakeholders including utilities, producers, prosumers, consumers, etc. This allows for a more optimized management of energy supply, storage and demand to reduce waste and shift to renewable energy.</li>
+                            <li>Poor distribution infrastructure: Blockchain solutions can attract private investments into infrastructure development by enabling new revenue streams from energy distribution. Investors can monetize underutilized infrastructure by facilitating energy trading between prosumers and consumers connected to the grid. Proof of Infrastructure development and usage on-chain ensures funds are utilized properly.</li>
+                            <li>High costs of energy access: Blockchain has the potential to make renewable energy and associated technologies more affordable and accessible. Mechanisms include microgrids, energy cooperatives, energy unions, crowdfunding for decentralized solutions, credit systems for upfront payments, etc. Transparent fund management and proof of impact ensure benefits reach the underserved communities.</li>
+                            <li>Limited adoption of renewable energy: Blockchain can incentivize the shift to clean, safe and sustainable energy through mechanisms such as:</li>
+                            <ol>
+                                <li>Energy credits or tokens for using renewable energy. These can be monetized, exchanged or used as discounts.</li>
+                                <li>Certifications for green energy producers and consumers. Verifiable proofs of certification on-chain highlight one's environmental and social impact.</li>
+                                <li>Performance-based incentives for meeting sustainability targets. Blockchain-enabled tracking ensures accurate performance evaluation and disbursal of incentives.</li>
+                            </ol>
+                            <li>Limited energy data sharing: A blockchain network enables open and transparent sharing of energy data between utilities, prosumers, regulators and other stakeholders while preserving privacy and security. Real-time access to data on generation, distribution, consumption, quality, availability, emissions, etc supports better decision making, management, monitoring and innovation across the energy sector.</li>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg8" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 8 (Decent Work & Economic Growth)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-8 (Decent Work and Economic Growth) that could be addressed using blockchain technology:                            
+                            <li>Limited financial inclusion: Blockchain can provide low-cost access to financial services including remittances, loans, payments, savings, insurance, etc. This includes mechanisms to verify users' identity and creditworthiness in a transparent manner. Access to finance is pivotal for entrepreneurship, productivity and economic opportunity.</li>
+                            <li>Informal employment: Blockchain solutions enable management of employment records, verification of skills and credentials in a tamper-proof manner. This makes it easier to formalize informal jobs, determine fair wages based on skills and improve job quality overall. Permanent employment and skill records also open up more opportunities for career growth.</li>
+                            <li>Child labor: Blockchain can be leveraged to establish and verify age-proof records for job seekers and workers. Pin-down of minimum age requirements within smart contracts prevents child labor while protecting privacy. Reporting mechanisms enable detection of underage workers, penalizing errant employers.</li>
+                            <li>Poor working conditions: Blockchain provides an anonymous yet accountable platform for reporting unsafe working conditions, violations of labor laws and occupational hazards affecting worker well-being. Mechanisms include whistleblower policies, audit trails, ratings/reviews and penalties on non-compliant entities. Workers can safely demand rights and safe working environment.</li>
+                            <li>Inadequate labor laws: Blockchain facilitates open consultation with relevant stakeholders including governments, employers, employees, NGOs for developing, reviewing and implementing fair labor laws and policies. Decentralized governance through blockchain leads to more inclusive policymaking. Official policies can also be coded into smart contracts for automated enforcement.</li>
+                            <li>Limited skill development: Blockchain enables improved management of skill development programs including online courses, certification, upskilling initiatives, apprenticeships, etc. Mechanisms include verifiable proofs of skills/certs, automated assessments, skill-linked incentives, job-matching, etc. Blockchain helps align skills with market demands, giving workers a competitive edge.</li>
+                            <li>Limited economic opportunities for women: Targeted interventions can be implemented on blockchain to promote women's entrepreneurship and access to economic resources and leadership roles. This includes access to finance, formal jobs, skills training, Mentorship, recognition of care-work. Verifiable proofs of progress empower women with more opportunities for financial independence and career growth.</li>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg9" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 9 (Industry, Innovation, Infrastructure)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-9 (Industry, Innovation and Infrastructure) that could be addressed using blockchain technology:                            
+                            <li>Limited access to affordable internet: Blockchain solutions can facilitate universal access to affordable internet and emerging technologies through micro-networks, community internet service providers and affordable device/connection plans for the underserved. Revenue models include subscriptions, sponsorships, subsidies, etc. Verifiable proof of access and usage ensures funds are utilized properly.</li>
+                            <li>Poor infrastructure management: Blockchain provides a transparent ledger of infrastructure assets, maintenance costs, repair histories, operational data which helps optimize utilization, anticipate failures, determine repair/rebuild costs and ensure safety standards. This applies to all forms of critical infrastructure including transportation, energy, communication systems, etc.</li>
+                            <li>Inadequate funding for infrastructure: Blockchain-based platforms attract private investments into infrastructure development by enabling new revenue streams from asset usage and trading. Investors can monetize underutilized infrastructure by allowing shared access between stakeholders. Proof of fund usage on-chain ensures accountability and impact. Public-private partnerships can also be formalized on-chain.</li>
+                            <li>Limited innovation adoption: Blockchain incentives innovation adoption through mechanisms such as:</li>
+                            <ol>
+                                <li>Innovation credits or tokens for using new technologies. These can be monetized, exchanged or used as discounts to encourage trial and mainstream adoption.</li>
+                                <li>Certifications for innovative producers and consumers. Verifiable proofs of certification highlight one's tech-savviness and early support for innovation.</li>
+                                <li>Performance-based grants or rewards for meeting adoption targets. Blockchain-enabled tracking ensures accurate assessment and disbursal of incentives driving large-scale innovation acceptance.</li>
+                            </ol>
+                            <li>Limited technology access: Mechanisms similar to providing affordable internet can be applied to access other technologies based on need, affordability and relevance. This includes compute power, software, robots, biotech equipment, etc. Revenue models and verifiable proof of access ensure equitable distribution of resources.</li>
+                            <li>Reduced researchers/talent mobility: Blockchain solutions establish tamper-proof records of researchers, students, experts, etc including qualifications, experience, publications, affiliations, projects, awards, patents, etc. Immutable profiles and verifiable achievements/impacts promote talent mobility based on merit by reducing discrimination and geographical limitations. Talent networks achieve optimal utilization and new Knowledge centers emerge.</li>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg10" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 10 (Reduced Inequalities)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-10 (Reduced Inequalities) that could be addressed using blockchain technology:                           
+                            <li>Limited access to essential services: Blockchain solutions provide low-cost access to critical services including finance, education, healthcare, legal aid, livelihood resources, etc. Mechanisms include subsidized or free services, micro-loans, sponsored access, etc. Proof of access and impact ensures resources reach the most marginalized communities.</li>
+                            <li>Discrimination and abuse: Blockchain offers an anonymous yet accountable platform for reporting discrimination, abuse and hate crimes. Reporting mechanisms focus on victim protection while also enabling accountability of perpetrators. This includes discrimination based on class, caste, gender, religion, ethnicity, disability, etc.</li>
+                            <li>Inequitable distribution of national wealth: Blockchain provides a transparent record of revenues, expenditures, subsidies, taxes and their impact on different sections of society. Mechanisms can be implemented to detect and correct unjustified inequalities in distribution of wealth and resources. Stakeholders can make data-driven demands for equitable policies.</li>
+                            <li>Lack of access to economic opportunities: Targeted interventions are implemented on blockchain to promote access to livelihood resources, skills, finance, markets and leadership roles especially for marginalized communities. This includes access to loans, grants, education, jobs, entrepreneurship support systems with verifiable proofs of progress and impact.</li>
+                            <li>Corruption and misuse of public funds: Blockchain enables an transparent and tamper-proof management of public funds including allocation, utilization and impact assessment. Funds can be directly released to beneficiaries based on verifiable proofs of entitlement, progress or milestones achieved. Real-time monitoring prevents diversion or misuse of resources.</li>
+                            <li>Limited participation in policymaking: Blockchain facilitates decentralized governance through mechanisms such as open consultation, voting, appeals and feedback. Verifiable proofs of participation and consideration of stakeholders' inputs in policies ensure inclusive policymaking. Smart contracts can also be leveraged to formalize participation terms.</li>
+                            <li>Greenwashing and lack of accountability: Blockchain provides an permanent and transparent record of environmental and social commitments, compliance, penalties, certifications and impact of businesses, NGOs and governments. Ratings, reviews and demand for accountability can force adherence to principles of sustainable development, inclusion and equal opportunity. Greenwashing is minimized due to verifiable accountability on-chain.</li>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg11" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 11 (Sustainable Cities & Communities)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-11 (Sustainable Cities and Communities) that could be addressed using blockchain technology:                           
+                            <li>Limited access to affordable housing: Blockchain solutions facilitate access to affordable housing through mechanisms such as rent control, subsidized rents, micro-loans, community housing, etc. Proof of access ensures resources reach the homeless and underserved communities.</li>
+                            <li>Poorly planned urbanization: Blockchain enables data-driven urban planning through transparency and verifiability of land records, development projects, property ownership, encroachments, etc. Stakeholders can make informed demands for sustainable infrastructure and habitat based on evidence. Accountability is ensured through reviews and penalties for non-compliance.</li>
+                            <li>Lack of disaster resilience: Blockchain improves disaster resilience through mechanisms such as:</li>
+                            <ol>
+                                <li>Tamper-proof records of disaster management plans, resources, timelines for prevention, mitigation, preparedness, response, recovery and rebuild.</li>
+                                <li>Verifiable proofs of disaster drills and preparedness ensuring resources are utilized properly with minimum wastage.</li>
+                                <li>Decentralized relief management avoiding fraud and ensuring aid reaches the most affected victims quickly.</li>
+                                <li>Smart contracts governing release of funds and resources based on disaster declaration to expedite responses.</li>
+                            </ol>
+                            <li>Limited citizen participation: Blockchain enables open governance through mechanisms such as proposals, budgets, policies consulting stakeholders; verifiable proofs of participation and consideration of inputs; decentralized voting on local issues; feedback mechanisms; and appeals against unfair policies, corruption, lack of accountability, etc. Blockchain minimizes top-down decision making and promotes inclusive policymaking.</li>
+                            <li>Lack of data sharing: Blockchain facilitates open data sharing between cities/communities and relevant stakeholders while ensuring privacy, security and fair usage of resources. This includes data on infrastructure, utilities, transportation, crime, environment, healthcare, education, employment, finance, etc. Insights drive evidence-based planning and development.</li>
+                            <li>Limited access to public services: Blockchain solutions provide low-cost access to critical services including finance, education, healthcare, legal aid, livelihood resources, etc. Mechanisms include subsidized or free services, micro-loans, sponsored access, etc. Proof of access and impact ensures resources reach the underserved communities.</li>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg12" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 12 (Responsible Consumption & Production)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-12 (Responsible Consumption and Production) that could be addressed using blockchain technology:                           
+                            <li>Limited eco-friendly practices: Blockchain incentivizes sustainable consumption and production through mechanisms such as:</li>
+                            <ol>
+                                <li>Eco-tokens or certifications for using green products/services. These can be monetized, exchanged or used as discounts to encourage trial and mainstream adoption.</li>
+                                <li>Performance-based incentives for meeting sustainability targets. Blockchain-enabled tracking ensures accurate assessment and disbursal of rewards driving large-scale changes in behavior and business practices.</li>
+                            </ol>
+                            <li>Greenwashing and lack of accountability: Blockchain provides an permanent and transparent record of environmental commitments, compliance, penalties, certifications and impact of businesses, NGOs and governments. Ratings, reviews and demand for accountability can force adherence to principles of sustainability. Verifiable proof of impact minimizes greenwashing.</li>
+                            <li>Inadequate waste management: Blockchain solutions improve waste management through mechanisms such as:</li>
+                            <ol>
+                                <li>Tamper-proof records of waste generation, segregation, collection, recycling, disposal and penalties for non-compliance at individual, institutional and industrial levels.</li>
+                                <li>Incentives for waste reduction, segregation and recycling in the form of waste credits, tokens, certifications and performance-based rewards with verifiable proofs of progress.</li>
+                                <li>Decentralized waste management avoiding fraud and ensuring resources are utilized properly with minimum wastage.</li>
+                            </ol>
+                            <li>Limited eco-friendly innovation: Blockchain encourages innovation in sustainability through mechanisms such as:</li>
+                            <ol>
+                                <li>Grants, funding and subsidized access for developing/deploying eco-friendly technologies, products, processes and services. Verifiable proof of innovation and impact ensures accountability.</li>
+                                <li>Innovation credits or tokens for using sustainable innovations. These can be monetized, exchanged or used as discounts to promote mainstream adoption.</li>
+                                <li>Certifications and ratings highlighting innovations/innovators forcing adherence to environmental standards. Verifiable proofs of certification showcase one's eco-credentials.</li>
+                            </ol>
+                            <li>Data invisibility: Blockchain facilitates open data sharing between governments, organizations, communities, researchers and individuals while ensuring privacy and fair usage of resources. This includes data on waste generation, pollution levels, renewable energy, sustainable practices, green supply chains, environmental crimes, etc. Insights drive evidence-based policymaking and development of eco-friendly solutions.</li>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg13" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 13 (Climate Action)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-13 (Climate Action) that could be addressed using blockchain technology:                           
+                            <li>Limited access to climate finance: Blockchain solutions facilitate access to funds for climate action including mitigation, adaptation, resilience and disaster relief. This includes micro-grants, micro-loans, crowdfunding, carbon credits, etc. Verifiable proof of finance usage and impact ensures accountability.</li>
+                            <li>Data invisibility: Blockchain enables open data sharing on climate change related information between governments, organizations, researchers, activists and individuals while ensuring privacy and fair usage of resources. This includes data on emissions, pollution, environment damage, renewable energy, sustainable practices, climate policies, budget allocations, etc. Data insights drive evidence-based policymaking and solutions.</li>
+                            <li>Inadequate policies and broken commitments: Blockchain provides permanent and transparent records of climate policies, Nationally Determined Contributions, environmental commitments, compliance, penalties and impact. Reviews and demands for accountability can force stronger actions as verifiable proofs minimize greenwashing. Decentralized governance through blockchain also promotes inclusive policymaking.</li>
+                            <li>Corruption and misuse of funds: Blockchain technology ensures transparent and accountable management of funds allocated for climate action. Direct release of funds to beneficiaries based on verifiable needs and proofs of progress prevents diversion of resources. Real-time monitoring through an immutable ledger avoids misuse of finances.</li>
+                            <li>Limited participation of vulnerable groups: Blockchain facilitates participation of indigenous communities, women, marginalized groups and youth in decision making on climate action. Mechanisms include proposals, open consultation, appeals, feedback and voting while ensuring consideration of inputs and protection of identities. Inclusive governance strengthens climate action.</li>
+                            <li>Lack of adaptation preparedness: Blockchain improves preparedness for climate change impacts through mechanisms such as:</li>
+                            <ol>
+                                <li>Tamper-proof records of adaptation plans, resources, timelines for prevention, mitigation, response and rebuild based on vulnerability assessments and impact studies.</li>
+                                <li>Verifiable proofs of adaptation drills and preparedness ensuring resources are utilized properly before disasters strike.</li>
+                                <li>Decentralized management of relief and rebuilding avoiding fraud and ensuring aid reaches the most affected victims quickly.</li>
+                                <li>Smart contracts governing automatic release of funds based on declaration of disasters to expedite responses.</li>
+                            </ol>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg14" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 14 (Life Below Water)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-14 (Life Below Water) that could be addressed using blockchain technology:                           
+                            <li>Overfishing and unsustainable fishing practices: Blockchain enables sustainable management of marine resources through mechanisms such as:</li>
+                            <ol>
+                                <li>Tamper-proof records of fishing licenses, quotas, seasons, catch limits and penalties for violations. This prevents overfishing and protects endangered species.</li>
+                                <li>Fishing credits or tokens for sustainable catches. These can be monetized, exchanged or used as discounts to encourage eco-friendly fishing practices.</li>
+                                <li>Ratings and certifications of fishing communities and businesses highlighting sustainability. Verifiable proofs encourage environmentally responsible fishing tourism and seafood trade.</li>
+                            </ol>
+                            <li>Pollution of oceans: Blockchain improves detection and prevention of ocean pollution through:</li>
+                            <ol>
+                                <li>Tamper-proof records of waste generation, disposal into seas, dumping, spills, penalties for polluting entities, cleanup costs, damage assessment, etc.</li>
+                                <li>Incentives for reducing pollution in the form of pollution credits, tokens and rebates verified through proven low/no pollution rates.</li>
+                                <li>Centralized monitoring of pollution hotspots, toxicity levels, microplastic prevalence and health of marine ecosystems avoiding duplication of efforts and enabling targeted action.</li>
+                            </ol>
+                            <li>Limited protection of marine habitats: Blockchain facilitates protected area expansion and effective habitat conservation through:</li>
+                            <ol>
+                                <li>Transparent management of funds for protection, patrolling, research and restoration of habitats like mangroves, seagrass beds, coral reefs, etc. Direct release of funds prevents diversion while real-time monitoring ensures accountability.</li>
+                                <li>Smart contracts governing release of funds based on milestones achieved in declaration and management of protected areas as marine sanctuaries or conservation sites. This expedites habitat preservation efforts.</li>
+                                <li>Verifiable proofs of conservation outcomes through satellite imagery, reports, certifications, etc. forcing adherence to protection commitments and standards.</li>
+                            </ol>
+                            <li>Lack of awareness: Blockchain improves awareness about importance of life below water and sustainable ocean practices through mechanisms such as:</li>
+                            <ol>
+                                <li>Eco-badges or certifications for adopting environmentally responsible behaviors and seafood choices. Verifiable proofs highlight one's eco-credentials.</li>
+                                <li>Knowledge sharing platforms preventing spread of misinformation and encouraging experiential learning opportunities.</li>
+                                <li>Performance-based incentives and rewards for meeting sustainability goals in personal, community or industry practices. Blockchain-enabled tracking ensures accurate assessment of impact.</li>
+                            </ol>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg15" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 15 (Life on Land)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-15 (Life on Land) that could be addressed using blockchain technology:                         
+                            <li>Deforestation and loss of biodiversity: Blockchain enables sustainable forest management and biodiversity conservation through:</li>
+                            <ol>
+                                <li>Tamper-proof records of logging licenses, quotas, seasons and penalties for illegal felling or hunting. This prevents over-exploitation of forests and protects endangered species.</li>
+                                <li>Forest credits or tokens for sustainable use of woodlands. These can be monetized, exchanged or used as discounts to encourage eco-friendly practices.</li>
+                                <li>Ratings and certifications of communities, businesses and countries highlighting environmental responsibility. Verifiable proofs motivate preservation initiatives and eco-tourism.</li>
+                            </ol>
+                            <li>Forest fires and damage: Blockchain improves detection and management of forest fires through:</li>
+                            <ol>
+                                <li>Permanent and verifiable records of fire incidents, causes, damages, responses, relief provided and penalties for arson. This helps determine insurance claims, rebuild costs and fix accountability.</li>
+                                <li>Decentralized fire monitoring through sensors and communities avoiding delays in detection and response. Smart contracts release funds automatically for timely extinguishing of fires based on reports.</li>
+                            </ol>
+                            <li>Land degradation and desertification: Blockchain facilitates sustainable land use and combats desertification through:</li>
+                            <ol>
+                                <li>Transparent management of funds for desalination, afforestation, usage of waste for land regeneration and soil conservation methods like farming terraces, contour bunds, etc. Direct disbursal prevents diversion while real-time monitoring ensures proper utilization.</li>
+                                <li>Smart contracts governing release of funds based on milestones achieved in taking up sustainable agricultural/forestry practices, setting up green cover, adopting erosion control techniques, establishing protected areas, etc. This expedites progress on equitable and eco-friendly land and soil governance.</li>
+                            </ol>
+                            <li>Lack of data and awareness: Blockchain improves data availability and public awareness about life on land through:</li>
+                            <ol>
+                                <li>Open data sharing platforms providing access to satellite imagery, reports on health of land, water, air and biodiversity, good practices, green cover, degradation hotspots, etc. Insights enable evidence-based conservation efforts.</li>
+                                <li>Knowledge sharing preventing spread of misinformation and encouraging appreciation of land's economic, ecological and cultural value.</li>
+                                <li>Performance-based incentives and rewards for meeting sustainability goals in personal, community or industry practices. Blockchain-enabled tracking of impact motivates widespread adoption of protective behaviors and policies.</li>
+                            </ol>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg16" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 16 (Peace, Justice, Strong Institutions)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-16 (Peace, Justice and Strong Institutions) that could be addressed using blockchain technology:                        
+                            <li>Corruption and lack of accountability: Blockchain improves transparency and accountability of institutions through mechanisms such as:</li>
+                            <ol>
+                                <li>Permanent and verifiable records of policies, budgets, expenditures, revenues, subsidies, taxes, audits, penalties, etc. This facilitates detection of corruption, mismanagement of funds and fixing responsibility.</li>
+                                <li>Automated release of funds based on verifiable milestones achieved in execution of projects or policies. Real-time monitoring prevents diversion of resources.</li>
+                                <li>Decentralized management of regulatory compliance avoiding manipulation and ensuring equitable enforcement of laws. Verifiable proofs of penalties imposed on violators establish credibility.</li>
+                            </ol>
+                            <li>Limited access to justice: Blockchain provides low-cost access to legal and judicial services through:</li>
+                            <ol>
+                                <li>Smart contracts facilitating automated enforcement and penalty mechanisms for petty crimes and civil disputes based on verifiable proofs of wrongdoing. This reduces burden on the system and ensures speedy justice.</li>
+                                <li>Micro-grants and subsidized legal aid especially for marginalized communities. Proof of proper usage establishes accountability.</li>
+                                <li>Community mediation platforms enabling affordable and localized dispute resolution based on agreed terms and verifiable consensus.</li>
+                            </ol>
+                            <li>Violation of human rights: Blockchain offers anonymous yet accountable reporting of human rights abuses including:</li>
+                            <ol>
+                                <li>Discrimination, violence, oppression, censorship, unlawful imprisonment, torture, forced displacement, etc. Mechanisms aim to protect identities of reporters while enabling action against perpetrators.</li>
+                                <li>Verifiable proofs of abuse establish credibility, determine responsibility and mandate penalty or compensation depending on the nature and scale of violation.</li>
+                            </ol>
+                            <li>Lack of inclusive governance: Blockchain promotes inclusive governance through mechanisms such as:</li>
+                            <ol>
+                                <li>Open consultation platforms enabling proposals, debates and feedback on policies, budgets, development agendas from all stakeholders including grassroots groups. Verifiable consideration of inputs makes the process transparent and broad-based.</li>
+                                <li>Decentralized voting on local issues, especially those concerning underrepresented communities. Blockchain verifiably aggregates votes and determines outcomes while preventing manipulation.</li>
+                                <li>Appeals and whistleblower policies for dissenters to report undemocratic practices, lack of public good in decisions and demand corrective action without fear of retaliation. Verifiable integrity of the process protects dissent in the public interest.</li>
+                            </ol>
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-sdg17" role="tabpanel" aria-labelledby="v-pills-xsdg5-tab">
+                        <h4 class="font-italic mb-4">SDG 17 (Partnerships for SDG)</h4>
+                        <p class="font-italic text-muted mb-2">
+                            Here are some potential problems related to SDG-17 (Partnerships for the Goals) that could be addressed using blockchain technology:                        
+                            <li>Lack of coordination and duplication of efforts: Blockchain enables coordinated action on sustainable development through mechanisms such as:</li>
+                            <ol>
+                                <li>Permanent and transparent record of commitments, roles, responsibilities, budgets, timelines, progress, impact, etc. of all partners (governments, NGOs, donors, implementing agencies, etc.). This facilitates honoring of commitments with accountability, detection of duplication and fixing of responsibility in case of delays or setbacks.</li>
+                                <li>Smart contracts formalizing terms of partnership and automatically releasing funds based on verified milestones achieved. Real-time monitoring ensures proper utilization of resources with minimum wastage or mismanagement across multiple partners.</li>
+                            </ol>
+                            <li>Inadequate data sharing: Blockchain facilitates secured sharing of data on development priorities, challenges, good practices, lessons learned, innovations, research insights, etc. between partners. Mechanisms include:</li>
+                            <ol>
+                                <li>Decentralized networks with access controls allowing selective data sharing as per agreements while preventing leakage. Blockchain establishes trust through encryption and consensus.</li>
+                                <li>Tamper-proof records of data sharing terms and any breaches. Penalties for violating policies promote responsible usage of shared resources.</li>
+                            </ol>
+                            <li>Broken commitments and sustainability concerns: Blockchain provides permanent proof of commitments, actions and impact enabling long-term assessment of partnerships. Mechanisms include:</li>
+                            <ol>
+                                <li>Verifiable records of pledges on funding, timelines, milestones, goals, etc. Partners can be held accountable for meeting or reneging on commitments.</li>
+                                <li>Ratings and reviews highlighting responsibility and reliability of individual partners as well as the partnership as a whole. Reputation concerns discourage broken promises and motivate sustainably fulfilling obligations.</li>
+                            </ol>
+                            <li>Limited inclusion of non-state actors: Blockchain enables participation of grassroots groups, local communities, women, youth, indigenous people, refugees, etc. in development partnerships. Mechanisms include:</li>
+                            <ol>
+                                <li>Decentralized networks providing marginalized groups access to resources, funds, data, capacity building opportunities, etc. based on verifiable proofs of inclusiveness.</li>
+                                <li>Smart contracts formalizing roles and releasing funds/resources directly to non-state partners based on achievements. Transparency reduces risks usually barring their participation.</li>
+                                <li>Appeals policies allowing groups to report undemocratic practices, lack of public good in decisions and demand corrective action without fear of retaliation. Verifiable integrity of the process protects dissent in the public interest.</li>
+                            </ol>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+
+<br><br>
+
+
+
+
+
+<!--End of test-->
+
+
+
+
+
+<!--4-->
+<!--<div class="">
+    <div class="panel with-nav-tabs panel-info">
+        <div class="panel-heading">
+                <ul class="nav nav-tabs">
+                    <li><a href="#tab1info" data-toggle="tab">Participation in Training</a></li>
+                    <li><a href="#tab2info" data-toggle="tab">Participation in Certification</a></li>
+                </ul>
+        </div>
+        <div class="panel-body">
+            <div class="tab-content">
+                <div class="tab-pane fade in active" id="tab1info"><ol class="mb-2"><p>
+                    <li><b>Training (Post-Secondary):</b> Post-secondary students are eligible for the training program that is subsidized by HSBC — i.e. free for post-secondary students — and may find out more about those activities through our <a href="./workshops.html">blockchain training schedule</a>.</li>
+                    <li><b>Training (Secondary):</b> Secondary school students are eligible for training programs delivered through the <a href="https://www.abc5.org">ABC5-Lab program</a> that is eligible for subsidy from the IT Innovation Lab programme from the OGCIO, one of the supporting organisations of IBCOL.</li>
+                </ol></p></div>
+                <div class="tab-pane fade" id="tab2info"><ol class="mb-2"><p> 
+                    <li><b>Level 1:</b> Blockchain Fundamentals</li>
+                    <li><b>Level 2:</b> Blockchain Solution Design</li>
+                    <li><b>Level 3:</b> Blockchain Development (R3 Corda, Hyperledger Fabric, Algorand)</li>
+                </ol></p></div>
+                
+            </div>
+        </div>
+    </div>
+</div>-->
+<footer class="paddingAdjustedFooter"><div class="ss-go-top"></div><div class="row"><div class="col-md-4 col-sm-4 mt-3"><div class="footerHeaderText"><b>About Us</b></div><p class="footerParaText">The Hong Kong Blockchain Olympiad (HKBCOL) nominates students to compete in the annual International Blockchain Olympiad competition.</p></div><div class="col-md-4 col-sm-4 mt-3"><div class="footerHeaderText"><b>Supporting Organisations</b></div><div class="row"><div class="col-12"><br><a href="https://www.hkbcs.org" target="_blank"><img class="media768FooterImg" style="width:120px;height:50px" src="./images/hkbcs.png"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.itc.gov.hk/en/index.html" target="_blank"><img class="media768FooterImg" style="width:60px;height:50px" src="./images/itc.png"></a>&nbsp;&nbsp;</div></div></div><div class="col-md-4 col-sm-4 mt-3"><div class="footerHeaderText"><b>Contact Us</b></div><div class="row"><div class="col-12"><p class="footerParaText mb-4">Media Enquiries: <a href=""><b>media@hkbcol.org</b></a><br>Partnership Enquiries: <a href=""><b>partnership@hkbcol.org</b></a></p></div></div></div></div><div class="row"><div class="col-full ss-copyright mt-5 colorWt2">Copyright © 2017-2023 Hong Kong Blockchain Society. All rights reserved.</div></div></footer><script>$(".accordion-button").click(function(){$(this).find("i").toggleClass("fas fa-plus fas fa-minus")})</script><script src="./js/jquery-3.2.1.min.js"></script><script src="./js/plugins.js"></script><script src="./js/main.js"></script><script src="./js/function.js"></script><script src="./js/openInNewTab.js"></script><script src="./js/clickToEnlarge.js"></script>
+</body>
+</html>
